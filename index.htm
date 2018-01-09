@@ -4,6 +4,7 @@
 <head>
     <meta http-equiv="content-type" content="text/html;charset=utf-8" />
     <title>Tổng công ty 319</title>
+
     <meta name="viewport" content="width=device-width, initial-scale=1,  user-scalable=yes" />
 
     <link rel="stylesheet" href="assets/css/bootstrap.css" type="text/css" />
@@ -11,91 +12,119 @@
     <link rel="stylesheet" href="css/main.css" type="text/css" />
     <link rel="stylesheet" href="fonts/Flaticon/font/flaticon.css" type='text/css'>
     <link href="css/animations.css" rel="Stylesheet" rev="Stylesheet" />
-    <link href="css/jquery.bxslider.css" rel="Stylesheet" rev="Stylesheet" />
-    <link href="css/jquery.fullpage.min.css" rel="Stylesheet" rev="Stylesheet" />
-
-    <script type="text/javascript" src="assets/js/jquery-1.10.2.min.js"></script>
 </head>
 
 <body>
     <div id="page_wrapper">
         <div class="header-top">
-            <div class="row">
-                <div class="col-md-12">
-                    <button type="button" class="navbar-toggle visible-xs visible-sm" data-toggle="collapse" data-target=".navbar-collapse">
-                        <i class="flaticon-menu"></i>
-                    </button>
-                    <div class="header-sm visible-sm visible-xs">
-                        <div class="col-xs-12 no-padding">
-                            <div class="logo-mobile">
-                                <a href="index.htm" class="logo-xs"><img src="images/logo319.png" alt=""></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="page-header navbar navbar-inverse">
-                        <div class="navbar-collapse collapse row">
-                            <div class="main-logo hidden-xs hidden-sm col-sm-2 col-md-2 col-lg-2 no-padding">
-                                <a href="index.html"><img src="images/logo319.png" alt=""></a>
-                                <h2 class="company-name">
-                                    <span>TỔNG CÔNG TY 319</span>
-                                    <span>MIỀN NAM</span>
-                                </h2>
-                            </div>
-                            <div class="col-xs-12 col-sm-10 col-md-10 col-lg-10 no-padding menu-right">
-                                <ul class="nav navbar-nav">
-                                    <li class="home"><a href="index.htm"><i class="flaticon-home-page"></i></a></li>
-                                    <li class=""><a href="">GIỚI THIỆU</a></li>
-                                    <li class=""><a href="">LĨNH VỰC HOẠT ĐỘNG</a></li>
-                                    <li class=""><a href="">DỰ ÁN ĐẦU TƯ </a></li>
-                                    <li class=""><a href="">CTĐ-XD ĐƠN VỊ</a></li>
-                                    <li class=""><a href="">TIN TỨC</a></li>
-                                    <li class=""><a href="">LIÊN HỆ</a></li>
-                                </ul>
-                                <div class="select-group pull-right">
-                                    <span class="select-language">
-                                        <a class="dropdown-toggle" data-toggle="dropdown" href="#"><img src="images/vn.svg" alt=""><span class="caret"></span></a>
-                                    <ul class="dropdown-menu">
-                                        <li><a href="#">VN</a></li>
-                                        <li><a href="#">EN</a></li>
-                                    </ul>
-                                    </span>
-                                    <span class="search"><i class="flaticon-magnifier"></i></span>
-                                </div>
-                            </div>
-                            <div class='clearfix'></div>
-                        </div>
+            <nav class="navbar navbar-default navbar-fixed-top">
+                <div class="navbar-header">
+                   <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <i class="flaticon-more-button-interface-symbol-of-three-horizontal-aligned-dots"></i>
+                      </button>
+                    <div class="main-logo col-sm-2 col-md-2 col-lg-2 no-padding">
+                        <a href="index.html"><img src="images/logo319.png" alt=""></a>
+                        <h2 class="company-name">
+                            <span>TỔNG CÔNG TY 319</span>
+                            <span>MIỀN NAM</span>
+                        </h2>
                     </div>
                 </div>
-            </div>
+                <div id="navbar" class="navbar-collapse collapse" style="">
+                    <ul class="nav navbar-nav">
+                        <li class="home active"><a href="index.htm"><i class="flaticon-home-page"></i></a></li>
+                        <li><a href="#">GIỚI THIỆU</a></li>
+                        <li><a href="#about">LĨNH VỰC HOẠT ĐỘNG</a></li>
+                        <li><a href="#contact">DỰ ÁN ĐẦU TƯ</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">CTĐ-XD ĐƠN VỊ <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li class="dropdown-header">Nav header</li>
+                                <li><a href="#">Separated link</a></li>
+                                <li><a href="#">One more separated link</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="../navbar/">TIN TỨC</a></li>
+                        <li><a href="../navbar-static-top/">LIÊN HỆ</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        
+                        <div class="select-group pull-right">
+                            <span class="select-language">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#"><img src="images/vn.svg" alt=""><span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">VN</a></li>
+                                <li><a href="#">EN</a></li>
+                            </ul>
+                            </span>
+                            <span class="search"><i class="flaticon-magnifier"></i></span>
+                        </div>
+                    </ul>
+                </div>
+            </nav>
+            <!-- <nav class="navbar navbar-default navbar-fixed-top">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                      </button>
+                        <a class="navbar-brand" href="#">Project name</a>
+                    </div>
+                    <div id="navbar" class="navbar-collapse collapse" aria-expanded="false" style="height: 1px;">
+                        <ul class="nav navbar-nav">
+                            <li class="active"><a href="#">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Action</a></li>
+                                    <li><a href="#">Another action</a></li>
+                                    <li><a href="#">Something else here</a></li>
+                                    <li role="separator" class="divider"></li>
+                                    <li class="dropdown-header">Nav header</li>
+                                    <li><a href="#">Separated link</a></li>
+                                    <li><a href="#">One more separated link</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="../navbar/">Default</a></li>
+                            <li><a href="../navbar-static-top/">Static top</a></li>
+                            <li class="active"><a href="./">Fixed top <span class="sr-only">(current)</span></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav> -->
         </div>
-
         <div id="page_body" class="page-body">
             <div class="vpdt-link"><i class="flaticon-earth-link"></i>VĂN PHÒNG ĐIỆN TỬ</div>
             <div class="page-info page-home">
                 <div id="fullpage">
-                    <section class="section auto-height section-top" id="section0">
-                        <div class="home-gallery">
-                            <div class="mainslide">
-                                <ul class="bxslider">
-                                    <li>
-                                        <h2 class="slider-title">
-                                            <img src="images/icon-slider.png" alt=""> DỰ ÁN LONG BIÊN
-                                        </h2>
-
-                                        <a><span class='item' style='background-image:url(images/slider03.jpg)'></span></a>
-                                    </li>
-                                    <li>
-                                        <h2 class="slider-title"><img src="images/icon-slider.png" alt="">DỰ ÁN SAI GÒN</h2>
-                                        <a target='_blank' href="gioi-thieu.html"><span class='item' style='background-image:url(images/slider02.jpg)'></span></a>
-                                    </li>
-
-                                </ul>
+                    <section class="section section-top" id="section0">
+                        <div id="carousel" class="carousel slide carousel-fade" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                                <li data-target="#carousel" data-slide-to="1"></li>
+                                <li data-target="#carousel" data-slide-to="2"></li>
+                            </ol>
+                            <!-- Carousel items -->
+                            <div class="carousel-inner">
+                                <div class="active item"></div>
+                                <div class="item"></div>
+                                <div class="item"></div>
                             </div>
                         </div>
                     </section>
-                    <section class="section animatedParent" id="section1">
-                        <div class="fadeInUpShort animated delay-500">
-                            <div class="row gutter-0">
+                    <section class="section animatedParent" id="service-sec">
+                        <div class="fadeInUpShort animated">
                                 <ul class="service clearfix">
                                     <li class="col-md-2 col-sm-4 col-xs-6">
                                         <i class="flaticon-worker-of-construction-working-with-a-shovel-beside-material-pile"></i> XÂY DỰNG DÂN DỤNG VÀ CÔNG NGHIỆP
@@ -118,7 +147,7 @@
                                 </ul>
                                 <div class="container">
                                     <div class="col-lg-6 col-md-6 col-sm-7">
-                                        <div class="fadeInLeftShort animated delay-500">
+                                        <div class="fadeInLeftShort animated">
                                             <div class="section-content">
                                                 <div class="text-top  text-center">
                                                     <h2 class="bg-clip-text">40</h2>
@@ -141,7 +170,7 @@
                                         </div>
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-5">
-                                        <div class="fadeInRightShort animated delay-500 about-content-right vertical-align">
+                                        <div class="fadeInRightShort animated about-content-right vertical-align">
                                             <img src="images/circle-img.jpg" alt="" class="clip-circle border-red">
                                             <img src="images/circle02.jpg" alt="" class="clip-circle border-blue">
                                             <img src="images/circle-img.jpg" alt="" class="clip-circle border-yellow">
@@ -149,16 +178,13 @@
                                         </div>
                                     </div>
                                 </div>
-
-                            </div>
                             <div class="clearfix"></div>
                         </div>
                     </section>
 
                     <section class="section animatedParent" id="project">
-                        <div class="row">
                             <div class="section-content-wrapper">
-                                <div class="fadeInUpShort animated delay-500">
+                                <div class="fadeInUpShort animated">
                                     <div class="inner section-content text-center">
                                         <div class="col-lg-4 col-md-4 col-sm-4 nopadding">
                                             <div class="pro-item">
@@ -205,42 +231,23 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
                         <div class="clearfix"></div>
                     </section>
 
                     <section class="section animatedParent" id="video-project">
-                        <div class="img-project-list">
-                            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 nopadding">
-                                <a data-width="800" data-toggle="lightbox" href="https://www.youtube.com/embed/sXYIxJScSik?rel=0" frameborder="0">
-                                    <!-- <i class="video-icon-small flaticon-play-button"></i> -->
-                                    <img class="img-responsive" src="images/01.jpg" alt="">
-                                </a>
-                            </div>
-                            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 nopadding">
-                                <!-- <i class="video-icon-small flaticon-play-button"></i> -->
-                                <img class="img-responsive" src="images/02.jpg" alt="">
-                            </div>
-                            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 nopadding">
-                                <!--  <i class="video-icon-small flaticon-play-button"></i> -->
-                                <img class="img-responsive" src="images/03.jpg" alt="">
-                            </div>
-                            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 nopadding">
-                                <!-- <i class="video-icon-small flaticon-play-button"></i> -->
-                                <img class="img-responsive" src="images/04.jpg" alt="">
-                            </div>
-
-                            <div class="clearfix"></div>
-                        </div>
-                        <div class="container-fluid">
-                            <div class="fadeInUpShort animated delay-500 vertical-align">
-
+                        
+                        <div class="container">
+                            <div class="fadeInUpShort animated vertical-align">
+                                <img class="bg-partner" src="images/trump-light.png" alt="">
+                                <h3 class="item-title">VIDEO 319</h3>
+                                <p>Tổng công ty 319 tiền thân là Sư đoàn 319/Quân khu 3</p>  
                                 <div class="video-list">
+
                                     <div class="col-md-5 col-sm-6 pull-right">
                                         <div class="inner section-content text-center">
-                                            <div class="row gutter-0">
                                                 <!-- THE PLAYLIST -->
                                                 <div class="vid-list-container">
+
                                                     <div class="vid-list">
 
                                                         <div class="vid-item">
@@ -272,7 +279,6 @@
                                                         <div class="clearfix"></div>
                                                     </div>
                                                 </div>
-                                            </div>
                                         </div>
 
                                     </div>
@@ -296,7 +302,6 @@
                         <div class="container section-content">
                             <img class="bg-partner" src="images/trump-light.png" alt="">
                             <h3 class="item-title">VĂN BẢN TRA CỨU</h3>
-                            <div class="row">
                                 <div class="col-lg-6 col-md-6 col-sm-6">
                                     <div class="vpdt fadeInRightShort animated delay-500">
                                         <!--  <a class="" href="">
@@ -330,7 +335,7 @@
                                     </div>
                                 </div>
                                 <div class="col-lg-6 col-md-6 col-sm-6">
-                                    <div class="fadeInLeftShort animated delay-500">
+                                    <div class="fadeInLeftShort animated">
                                         <div class="list-attachment">
                                             <ul>
                                                 <li class="attachment-item">
@@ -359,14 +364,12 @@
                                     </div>
                                 </div>
                                 <div class="clearfix"></div>
-                                <p class="center"><a href="" class="item-detail btn btn-round btn-more-blue">XEM THÊM</a></p>
-
-                            </div>
+                                <p class="center"><a href="" class="item-detail btn ">XEM THÊM</a></p>
                         </div>
                     </section>
                     <section class="section animatedParent" id="news-sec">
                         <div class="section-content-wrapper">
-                            <div class="fadeInUpShort animated delay-500">
+                            <div class="fadeInUpShort animated ">
                                 <div class="col-lg-3 col-md-3 col-sm-6 nopadding">
                                     <div class="news-box">
                                         <div class="news-info">
@@ -429,83 +432,80 @@
 
                     <section class="section animatedParent" id="partner-sec">
                         <div class="container">
-                            <div class="row gutter-10">
-                                <div class="">
-                                    <div class="rec"></div>
-                                    <div class="fadeInLeftShort animated delay-500  scroll-inline ">
-                                        <img class="bg-partner" src="images/trump-light.png" alt="">
-                                        <div class="inner section-content text-center partner-desc">
-                                            <h3 class="item-title">ĐỐI TÁC</h3>
-                                            <span>Trong thời gian qua Tổng công ty và các đơn vị thành viên bằng những</span>
-                                            <div class="partner-list">
-                                                <div class="col-md-3 col-sm-3 col-xs-4">
-                                                    <div class="par-item">
-                                                        <img class="img-responsive" src="images/partner/par01.jpg" alt="">
-                                                    </div>
+                            <div class="">
+                                <div class="rec"></div>
+                                <div class="fadeInLeftShort animated scroll-inline ">
+                                    <img class="bg-partner" src="images/trump-light.png" alt="">
+                                    <div class="inner section-content text-center partner-desc">
+                                        <h3 class="item-title">ĐỐI TÁC</h3>
+                                        <span>Trong thời gian qua Tổng công ty và các đơn vị thành viên bằng những</span>
+                                        <div class="partner-list">
+                                            <div class="col-md-3 col-sm-3 col-xs-4">
+                                                <div class="par-item">
+                                                    <img class="img-responsive" src="images/partner/par01.jpg" alt="">
                                                 </div>
-                                                <div class="col-md-3 col-sm-3 col-xs-4">
-                                                    <div class="par-item">
-                                                        <img class="img-responsive" src="images/partner/par02.jpg" alt="">
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-3 col-sm-3 col-xs-4">
-                                                    <div class="par-item">
-                                                        <img class="img-responsive" src="images/partner/par03.jpg" alt="">
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-3 col-sm-3 col-xs-4">
-                                                    <div class="par-item">
-                                                        <img class="img-responsive" src="images/partner/par04.jpg" alt="">
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-3 col-sm-3 col-xs-4">
-                                                    <div class="par-item">
-                                                        <img class="img-responsive" src="images/partner/par05.jpg" alt="">
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-3 col-sm-3 col-xs-4">
-                                                    <div class="par-item">
-                                                        <img class="img-responsive" src="images/partner/par06.jpg" alt="">
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-3 col-sm-3 col-xs-4">
-                                                    <div class="par-item">
-                                                        <img class="img-responsive" src="images/partner/par07.jpg" alt="">
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-3 col-sm-3 col-xs-4">
-                                                    <div class="par-item">
-                                                        <img class="img-responsive" src="images/partner/par01.jpg" alt="">
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-3 col-sm-3 col-xs-4">
-                                                    <div class="par-item">
-                                                        <img class="img-responsive" src="images/partner/par01.jpg" alt="">
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-3 col-sm-3 col-xs-4">
-                                                    <div class="par-item">
-                                                        <img class="img-responsive" src="images/partner/par02.jpg" alt="">
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-3 col-sm-3 col-xs-4">
-                                                    <div class="par-item">
-                                                        <img class="img-responsive" src="images/partner/par03.jpg" alt="">
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-3 col-sm-3 col-xs-4">
-                                                    <div class="par-item">
-                                                        <img class="img-responsive" src="images/partner/par04.jpg" alt="">
-                                                    </div>
-                                                </div>
-                                                <div class="clearfix"></div>
                                             </div>
-                                            <a class="btn-red href=">XEM THÊM</a>
+                                            <div class="col-md-3 col-sm-3 col-xs-4">
+                                                <div class="par-item">
+                                                    <img class="img-responsive" src="images/partner/par02.jpg" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3 col-sm-3 col-xs-4">
+                                                <div class="par-item">
+                                                    <img class="img-responsive" src="images/partner/par03.jpg" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3 col-sm-3 col-xs-4">
+                                                <div class="par-item">
+                                                    <img class="img-responsive" src="images/partner/par04.jpg" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3 col-sm-3 col-xs-4">
+                                                <div class="par-item">
+                                                    <img class="img-responsive" src="images/partner/par05.jpg" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3 col-sm-3 col-xs-4">
+                                                <div class="par-item">
+                                                    <img class="img-responsive" src="images/partner/par06.jpg" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3 col-sm-3 col-xs-4">
+                                                <div class="par-item">
+                                                    <img class="img-responsive" src="images/partner/par07.jpg" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3 col-sm-3 col-xs-4">
+                                                <div class="par-item">
+                                                    <img class="img-responsive" src="images/partner/par01.jpg" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3 col-sm-3 col-xs-4">
+                                                <div class="par-item">
+                                                    <img class="img-responsive" src="images/partner/par01.jpg" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3 col-sm-3 col-xs-4">
+                                                <div class="par-item">
+                                                    <img class="img-responsive" src="images/partner/par02.jpg" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3 col-sm-3 col-xs-4">
+                                                <div class="par-item">
+                                                    <img class="img-responsive" src="images/partner/par03.jpg" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3 col-sm-3 col-xs-4">
+                                                <div class="par-item">
+                                                    <img class="img-responsive" src="images/partner/par04.jpg" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="clearfix"></div>
                                         </div>
-
+                                        <a class="btn-red href=">XEM THÊM</a>
                                     </div>
-                                </div>
 
+                                </div>
                             </div>
                             <div class="clearfix"></div>
                         </div>
@@ -576,16 +576,17 @@
         </div>
 
     </div>
-
-    <script type="text/javascript" src="js/scrolloverflow.min.js"></script>
-    <script type="text/javascript" src="js/jquery.fullpage.min.js"></script>
-    <script type="text/javascript" src="js/jquery.easing.min.js"></script>
+     <script type="text/javascript" src="assets/js/jquery-1.10.2.min.js"></script>
     <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
-
-    <script type="text/javascript" src="js/jquery.touchSwipe.js"></script>
-    <script type="text/javascript" src="js/jquery.bxslider.js"></script>
     <script type="text/javascript" src="js/css3-animate-it.js"></script>
-    <script type="text/javascript" src="js/mainScript.js"></script>
+    <script src="js/jQuery.scrollSpeed.js"></script>
+    <script>
+        $(function() {  
+
+            jQuery.scrollSpeed(100, 500);
+
+        });
+        </script>
 </body>
 
 </html>
