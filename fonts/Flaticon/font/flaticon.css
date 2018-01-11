@@ -1,6 +1,6 @@
 	/*
   	Flaticon icon font: Flaticon
-  	Creation date: 10/01/2018 09:29
+  	Creation date: 11/01/2018 05:15
   	*/
 
 @font-face {
@@ -29,37 +29,43 @@ font-style: normal;
 font-weight: 300;
 }
 
-.flaticon-video-camera:before { content: "\f100"; }
-.flaticon-photo-camera-1:before { content: "\f101"; }
-.flaticon-photo-camera:before { content: "\f102"; }
-.flaticon-more-button-interface-symbol-of-three-horizontal-aligned-dots:before { content: "\f103"; }
-.flaticon-home-page:before { content: "\f104"; }
-.flaticon-earth-link:before { content: "\f105"; }
-.flaticon-technology:before { content: "\f106"; }
-.flaticon-people:before { content: "\f107"; }
-.flaticon-play-rounded-button:before { content: "\f108"; }
-.flaticon-play-button:before { content: "\f109"; }
-.flaticon-facebook:before { content: "\f10a"; }
-.flaticon-rss-symbol:before { content: "\f10b"; }
-.flaticon-arrows-1:before { content: "\f10c"; }
-.flaticon-multimedia-1:before { content: "\f10d"; }
-.flaticon-square:before { content: "\f10e"; }
-.flaticon-clip:before { content: "\f10f"; }
-.flaticon-paper:before { content: "\f110"; }
-.flaticon-clock:before { content: "\f111"; }
-.flaticon-placeholder-point:before { content: "\f112"; }
-.flaticon-next:before { content: "\f113"; }
-.flaticon-multimedia:before { content: "\f114"; }
-.flaticon-arrows:before { content: "\f115"; }
-.flaticon-location-point:before { content: "\f116"; }
-.flaticon-road-straight-line-top-view:before { content: "\f117"; }
-.flaticon-tool:before { content: "\f118"; }
-.flaticon-neighborhood:before { content: "\f119"; }
-.flaticon-factory:before { content: "\f11a"; }
-.flaticon-bomb:before { content: "\f11b"; }
-.flaticon-worker-of-construction-working-with-a-shovel-beside-material-pile:before { content: "\f11c"; }
-.flaticon-magnifier:before { content: "\f11d"; }
-.flaticon-youtube-logo:before { content: "\f11e"; }
-.flaticon-message-closed-envelope:before { content: "\f11f"; }
-.flaticon-telephone-handle-silhouette:before { content: "\f120"; }
-.flaticon-cell-phone:before { content: "\f121"; }
+.flaticon-modern-bridge-road-symbol:before { content: "\f100"; }
+.flaticon-office:before { content: "\f101"; }
+.flaticon-visibility:before { content: "\f102"; }
+.flaticon-eye:before { content: "\f103"; }
+.flaticon-speech-bubble-outline:before { content: "\f104"; }
+.flaticon-next-page:before { content: "\f105"; }
+.flaticon-video-camera:before { content: "\f106"; }
+.flaticon-photo-camera-1:before { content: "\f107"; }
+.flaticon-photo-camera:before { content: "\f108"; }
+.flaticon-more-button-interface-symbol-of-three-horizontal-aligned-dots:before { content: "\f109"; }
+.flaticon-home-page:before { content: "\f10a"; }
+.flaticon-earth-link:before { content: "\f10b"; }
+.flaticon-technology:before { content: "\f10c"; }
+.flaticon-people:before { content: "\f10d"; }
+.flaticon-play-rounded-button:before { content: "\f10e"; }
+.flaticon-play-button:before { content: "\f10f"; }
+.flaticon-facebook:before { content: "\f110"; }
+.flaticon-rss-symbol:before { content: "\f111"; }
+.flaticon-arrows-1:before { content: "\f112"; }
+.flaticon-multimedia-1:before { content: "\f113"; }
+.flaticon-square:before { content: "\f114"; }
+.flaticon-clip:before { content: "\f115"; }
+.flaticon-paper:before { content: "\f116"; }
+.flaticon-clock:before { content: "\f117"; }
+.flaticon-placeholder-point:before { content: "\f118"; }
+.flaticon-next:before { content: "\f119"; }
+.flaticon-multimedia:before { content: "\f11a"; }
+.flaticon-arrows:before { content: "\f11b"; }
+.flaticon-location-point:before { content: "\f11c"; }
+.flaticon-road-straight-line-top-view:before { content: "\f11d"; }
+.flaticon-tool:before { content: "\f11e"; }
+.flaticon-neighborhood:before { content: "\f11f"; }
+.flaticon-factory:before { content: "\f120"; }
+.flaticon-bomb:before { content: "\f121"; }
+.flaticon-worker-of-construction-working-with-a-shovel-beside-material-pile:before { content: "\f122"; }
+.flaticon-magnifier:before { content: "\f123"; }
+.flaticon-youtube-logo:before { content: "\f124"; }
+.flaticon-message-closed-envelope:before { content: "\f125"; }
+.flaticon-telephone-handle-silhouette:before { content: "\f126"; }
+.flaticon-cell-phone:before { content: "\f127"; }

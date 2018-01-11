@@ -1340,28 +1340,26 @@ li.home{padding-top:10px !important;}
   height: 100%;
   color: #fff;
 } 
-.item:nth-child(1) {
-  background: url("../images/slider04.jpg") no-repeat;
-  background-size: cover;
-  height: 100%;
-}
-.item:nth-child(2) {
-  background: url("../images/slider02.jpg") no-repeat;
-  background-size: cover;
-  height: 100%;
-}
-.item:nth-child(3) {
-  background: url("../images/slider03.jpg") no-repeat;
-  background-size: cover;
-  height: 100%;
-}
-
-.carousel-inner .item {
+.section-top .carousel-inner .item {
     text-align: center !important;
 }
-.slider-text{position: absolute;
-right:0;left:0;bottom:60px;}
-.carousel.carousel-fade .item {
+.section-top .carousel-indicators .active {
+    margin: 0;
+    width: 12px;
+    height: 12px;
+    background-color: #ba0727;
+}
+.section-top .slider-text{
+    position: absolute;
+    right:0;
+    left:0;
+    bottom:20%;
+    text-shadow: 0px 5px 14px rgb(8, 8, 8);
+}
+.slider-text i::before{font-size: 100px;}
+.slider-text h2{font-size: 50px;margin-bottom: 0;margin-top: 0;}
+.slider-text p{font-size: 30px;font-weight: 300;}
+.section-top .carousel.carousel-fade .item {
     -webkit-transition: opacity 0.5s ease-in-out;
     -moz-transition: opacity 0.5s ease-in-out;
     -ms-transition: opacity 0.5s ease-in-out;
@@ -1370,20 +1368,20 @@ right:0;left:0;bottom:60px;}
     opacity:0;
 }
 
-.carousel.carousel-fade .active.item {
+.section-top .carousel.carousel-fade .active.item {
     opacity:1;
 }
 
-.carousel.carousel-fade .active.left,
-.carousel.carousel-fade .active.right {
+.section-top .carousel.carousel-fade .active.left,
+.section-top .carousel.carousel-fade .active.right {
     left: 0;
     z-index: 2;
     opacity: 0;
     filter: alpha(opacity=0);
 }
 
-.carousel.carousel-fade .next,
-.carousel.carousel-fade .prev {
+.section-top .carousel.carousel-fade .next,
+.section-top .carousel.carousel-fade .prev {
     left: 0;
     z-index: 1;
 }
@@ -1402,8 +1400,6 @@ right:0;left:0;bottom:60px;}
   background-size: cover;
   height: 100%;
 }
-
-
 .snip1361 {
   position: relative;
   overflow: hidden;
