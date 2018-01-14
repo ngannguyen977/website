@@ -872,6 +872,7 @@ li.home{padding-top:10px !important;}
 }
 .footer-top  button{margin-top: 40px;}
 .footer-top form{margin-top: 40px;margin-top: 40px;z-index: 99;position: relative;}
+.form-inline .form-group{margin-right:5px;}
 .txt-bottom-title{
      font-size: 15px;
      color: #304458;
@@ -1034,7 +1035,6 @@ li.home{padding-top:10px !important;}
     }
 }
 @media screen and (min-width:1170px){
-    .select-group .select-language{width:70px;}
     .header-top .navbar-header {float: left;}
  }
 @media screen and (max-width:1169px){

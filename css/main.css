@@ -5,17 +5,18 @@
 
 .banner-header{
   position: relative;
-    overflow: hidden;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: flex-start;
-    align-content: flex-start;
-    height: 30vw;
-    min-height: 500px;
-    max-height: 600px;
-    min-width: 300px;
-    color: #eee;
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: flex-start;
+  height: 30vw;
+  min-height: 500px;
+  max-height: 600px;
+  min-width: 300px;
+  color: #fff;
+  margin-top: 80px;
 }
 .banner-header:after{
   content:"";
@@ -56,7 +57,7 @@
 }
 .info{
   width:100%;
-  padding:8% 10% 0 10%;
+  padding:13% 10% 0 10%;
   text-align:center;
   text-shadow:0 2px 3px rgba(0,0,0,0.2)
 }
@@ -66,12 +67,13 @@
 }
 .banner-header i{
 	border: 1px solid #fff;
-    height: 70px;
-    width: 71px;
-    border-radius: 50%;
-    display: inline-block;
-    line-height: 65px;
-    background: #ffffff2b;
+  height: 70px;
+  width: 70px;
+  margin-bottom: 10px;
+  border-radius: 50%;
+  display: inline-block;
+  line-height: 65px;
+  background: #ffffff2b;
 }
 .sub-content .item-title{position: relative;    padding: 40px;}
 
@@ -97,7 +99,6 @@ span.s1 {
 .card .thumbnail {
     float: left;
     position: relative;
-    left: 10px;
     top: -30px;
     border: 1px solid;
     border-radius: 0;
@@ -132,7 +133,7 @@ span.s1 {
 }
 .separator {
   margin-top: 10px;
-  border: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
  margin-bottom: 10px;
 }
 .card-date{    
@@ -926,6 +927,25 @@ li.prev_slide .image {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   float: right;
+}
+@media screen and (max-width:1200px){
+  .btn-detail {
+    right: 0;
+    float: right;
+  }
+  .card {
+      height: 100%;
+      position: relative;
+      width: 31%;
+      margin: 1%;
+      left:0 !important;
+      margin-bottom: 5%;
+  }
+  .btn-detail {position: relative;}
+  .card li {padding-right: 15px;}
+  .card-icon { padding-left: 0; }
+  .card .card-right {padding-left: 15px; }
+  .card-date {left: 35px;}
 }
 @media screen and ( max-width: 550px ) {
   .image { width: 100%; }
