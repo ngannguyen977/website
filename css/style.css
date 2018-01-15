@@ -900,7 +900,7 @@ li.home{padding-top:10px !important;}
     height: 40px;
     width: 100%;
 }
-.footer-body h3{margin-top: 0;font-size: 18px;}
+.footer-body h3{margin-top: 10px;font-size: 18px;}
 .footer-body i::before{
     color: #e31851;
     font-size: 25px;
@@ -1064,7 +1064,6 @@ li.home{padding-top:10px !important;}
          background: #071c33 !important;
          width: 100% !important;
      } 
-    
 }
 @media screen and (max-width:992px) {
     .section .section-bg{position: relative;}
@@ -1255,7 +1254,7 @@ li.home{padding-top:10px !important;}
     }
     #project .pro-item img, #project .pro-item {height: 265px !important;}
 }
- @media screen and (min-width:1400px){
+ @media screen and (min-width:1500px){
     .header-top .navbar-nav > li a {
          padding-left: 15px;
          padding-right: 15px;
