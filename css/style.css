@@ -479,7 +479,8 @@ input::placeholder {color: #052b54 !important;}
     background: transparent;
     color:#b60a28;
 }
-.header-top .navbar{ box-shadow: 0 6px 15px rgba(36,37,38,0.08);border:0;background: #fff;}
+.navbar-fixed-top{border:0;}
+.header-top .navbar{ box-shadow: 0 6px 15px rgba(36,37,38,0.08);border-bottom: 0;background: #fff;}
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus{
     background: transparent;
 }
@@ -872,7 +873,7 @@ li.home{padding-top:10px !important;}
  .footer-top{
     background: #eceff3;
     text-align: center;
-    padding: 20px 15px 40px 15px;
+    padding: 40px 15px 40px 15px;
     position: relative;
 }
  .footer-top h3{
@@ -891,7 +892,7 @@ li.home{padding-top:10px !important;}
  .footer-top .form-control{
     border-radius: 30px;
     max-width: 420px;
-    min-width: 260px;
+    min-width: 230px;
     font-size: 14px;
     margin: 0 auto;
     border: 1px solid #15273f;
@@ -1105,6 +1106,14 @@ li.home{padding-top:10px !important;}
     .card{width:48% !important;}
 }
  @media screen and (max-width:767px){
+    .map-group{
+        background: #ecf2f7;
+        margin-top: 30px;
+        margin-left: -15px;
+        margin-right: -15px;
+        padding-bottom: 30px;
+    }
+    #service-sec {margin-bottom: -50px !important;}
     .footer-top button {margin-top: 0;}
     .lang-display_CP{display: none;}
     #navbar.navbar-collapse .navbar-nav{width: 100%;}

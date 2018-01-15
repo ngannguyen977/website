@@ -930,6 +930,8 @@ li.prev_slide .image {
 }
 
 /* VIDEO GALLERY */
+
+.video-content{margin-bottom: 50px;}
 .video-content .item-title{text-align: left;}
 .video-content .item-title i{
     height: 60px;
@@ -941,9 +943,10 @@ li.prev_slide .image {
 main{margin-top: 80px;}
 .large-video iframe{
     width: 100%;
-    height: 500px;
+    height: 600px;
 }
-.timeline{    margin-top: 30px;}
+.video-text{padding-left: 20px;}
+.timeline{margin-top: 30px;}
 .large-video{margin-bottom: 50px;}
 .video-gallery{margin-bottom: 50px;}
 .video-item iframe{
@@ -959,19 +962,18 @@ main{margin-top: 80px;}
     position: relative;
     left: 30px;
 }
-.video-box{
-  background: #eceff3;
-}
-.video-timeline-item{margin-left: 40px;}
+.video-box{background: #eceff3;}
+.video-timeline-item{margin-left: 40px;margin-bottom: 40px;}
 .video-timeline-item img{height:110px;}
 .video-timeline-item a{position: relative;}
 .video-timeline-item i::before{color:#fff;}
 .video-timeline-item i{
   position: absolute;
-    top: 30%;
-    text-align: center;
-    right: 0;
-    left: 0
+  top: 30%;
+  text-align: center;
+  right: 0;
+  left: 0;
+  z-index: 9;
 }
 .timeline > .video-timeline:before {background-color: #bbb;}
 .timeline > .video-timeline:before {background-color: #bbb;}
@@ -983,10 +985,6 @@ main{margin-top: 80px;}
     height: 1em;
     left: -0.5em;
     top: 0;
-}
-.timeline .content {
-    margin-bottom: 4em;
-    -ms-flex: 1;
 }
 @media screen and (max-width:1200px){
   .btn-detail {
@@ -1009,14 +1007,25 @@ main{margin-top: 80px;}
   .card .card-right {padding-left: 15px; }
   .card-date {left: 30px;}
 }
-@media screen and ( max-width: 768px ){
-  .navbar-right .dropdown-menu {left: -50px;}
+@media screen and (max-width: 992px){
+  .video-timeline-item img {height: auto;}
+  .video-text {padding-left: 0;margin-top: 20px;}
 }
-
-@media screen and ( max-width: 650px ) {
+@media screen and (max-width: 768px){
+  .navbar-right .dropdown-menu {left: -50px;}
+  .timeline > .video-timeline{left:0;}
+  .video-timeline-item{margin-left: 0;}
+}
+@media screen and (max-width: 650px ) {
   .card{margin-bottom: 13%;}
   .card li {padding-right: 10px;}
   .card .card-right h2 {font-size: 18px;}
   .card{width:100% !important;}
-
+}
+@media screen and (max-width: 480px){
+  .video-item iframe {height: auto !important;}
+.large-video iframe {
+      width: 100%;
+      height: 210px;
+  }
 }
