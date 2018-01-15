@@ -1,4 +1,4 @@
-
+.sub-content a:hover, .sub-content a:focus{text-decoration: none;}
 .sub-content{padding-bottom: 50px;}
 
 /* ===================List ====================*/
@@ -120,11 +120,12 @@ span.s1 {
   transform: translate(-50%, -50%);
 }
 .card .card-right {
-   padding-left: 35px;
+   padding-left: 15px;
 }
 .card .card-right h2{
 	font-size: 20px;
 	color: #062c55;
+  line-height: 25px;
 }
 .card h1 {
   padding-top: 15px;
@@ -138,15 +139,13 @@ span.s1 {
 }
 .card-date{    
 	position: absolute;
-    left: 57px;
+    left: 30px;
     bottom: 64px;
     border: 2px solid #fff;
     text-align: center;
     padding: 0 5px;
 }
 .card-bottom{
-	display: inline-flex;
-    float: left;
     width: 100%;
     justify-content: space-around;
     line-height: 10px;
@@ -155,7 +154,7 @@ span.s1 {
 	display: flex;
     align-items: start;
     width: 100%;
-    padding-left: 34px;
+    padding-left: 0;
 
 }
 .card-icon i::before{font-size: 18px;}
@@ -169,12 +168,12 @@ span.s1 {
 .card h6 {
   font-size: 14px;
   color: #fff;
-      margin-top: 0;
+  margin-top: 0;
 }
 .card li {
   display: inline;
   list-style: none;
-  padding-right: 20px;
+  padding-right: 15px;
   color: #7B7B7B;
 }
 .btn-detail {
@@ -187,34 +186,37 @@ span.s1 {
 	font-size: 45px;
 }
 /* ==============pagination ===================*/
+
 .sub-content .pagination {
     display: inline-block;
     width: 100%;
     text-align: center;
-    margin: 20px 0 40px 0;
 }
 .sub-content .pagination a {
     display: inline-block;
     color: #222;
+    background: #fff;
+    box-shadow: 10px 10px 93px 0px rgba(0, 0, 0, 0.14);
 }
 .sub-content .pagination ul {
     margin: 0;
     padding: 0;
     list-style-type: none;
 }
-.pg-bottom .is-active li{
-   background-color: #071c33;
+.navbar-right .dropdown-menu {
+    left: -50px;
+    right: 0;
 }
+
 .pg-bottom a span{
 	font-size: 20px;
-    color: #d0d4d9;
+    color: #071c33;
 }
 .pg-bottom li {
     width: 30px;
     height: 2px;
     padding: 0;
     margin: auto 5px;
-    background-color: rgba(7, 28, 51, 0.19);
 }
 
 /* ======================= NEWS ====================*/
@@ -930,25 +932,30 @@ li.prev_slide .image {
 }
 @media screen and (max-width:1200px){
   .btn-detail {
-    right: 0;
+    right: 20px;
     float: right;
   }
   .card {
-      height: 100%;
-      position: relative;
-      width: 31%;
-      margin: 1%;
-      left:0 !important;
-      margin-bottom: 5%;
+  height: 100%;
+  position: relative;
+  width: 31%;
+  margin: 1%;
+  left:0 !important;
+  margin-bottom: 5%;
+  padding-left: 0;
+    padding-right: 0;
   }
   .btn-detail {position: relative;}
   .card li {padding-right: 15px;}
   .card-icon { padding-left: 0; }
   .card .card-right {padding-left: 15px; }
-  .card-date {left: 35px;}
+  .card-date {left: 30px;}
 }
-@media screen and ( max-width: 550px ) {
-  .image { width: 100%; }
-  .content { padding-right: 2rem; }
-  nav { left: 0; right: auto; }
+@media screen and ( max-width: 650px ) {
+  .card{margin-bottom: 13%;}
+  .card li {padding-right: 10px;}
+  .card .card-right h2 {font-size: 18px;}
+}
+@media screen and ( max-width: 650px ){
+  .card{width:100% !important;}
 }

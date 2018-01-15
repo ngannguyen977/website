@@ -53,6 +53,11 @@ input::placeholder {color: #052b54 !important;}
     outline:none;
 }
 .select-language a:hover{color:#fff !important;}
+.nav .open > a, .nav .open > a:hover, .nav .open > a:focus{background: transparent;}
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #a8172f !important;
+    background-color: transparent;
+}
 #navbar .dropdown-toggle a:hover,#navbar .dropdown-toggle a:focus{color:#fff;}
 #navbar .nav .open > a, #navbar .nav .open > a:hover, #navbar .nav .open > a:focus{background: transparent;}
 .container-custom
@@ -121,12 +126,13 @@ input::placeholder {color: #052b54 !important;}
 
 /* ================== MAIN SLIDER =====================*/
 
-.carousel,
-.carousel-inner,
-.carousel-inner .item {
+.section-top .carousel,
+.section-top .carousel-inner,
+.section-top .carousel-inner .item {
   height: 100%;
   color: #fff;
-} 
+}
+.section-top .carousel-indicators li{border: 1px solid #8dc0f8;}
 .section-top .carousel-inner .item {
     text-align: center !important;
 }
@@ -1091,6 +1097,9 @@ li.home{padding-top:10px !important;}
  @media screen and (min-width: 768px){
     .lang-display_SP{display: none;}
 }
+@media screen and (max-width: 880px){
+    .card{width:48% !important;}
+}
  @media screen and (max-width:767px){
     .footer-top button {margin-top: 0;}
     .lang-display_CP{display: none;}
@@ -1239,7 +1248,7 @@ li.home{padding-top:10px !important;}
          font-size: 14px;
          font-weight: 600;
          color: #071c33;
-         padding-left: 8px;
+         padding-left: 6px;
          padding-right: 6px;
      }
      .navbar-nav.navbar-right:last-child {margin-right: 0;}
