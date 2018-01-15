@@ -1,6 +1,12 @@
 .sub-content a:hover, .sub-content a:focus{text-decoration: none;}
 .sub-content{padding-bottom: 50px;}
-
+.btn-stroke{
+    border: 1px solid #ddd;
+    padding: 6px 40px;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 13px;
+}
 /* ===================List ====================*/
 
 .banner-header{
@@ -203,11 +209,6 @@ span.s1 {
     padding: 0;
     list-style-type: none;
 }
-.navbar-right .dropdown-menu {
-    left: -50px;
-    right: 0;
-}
-
 .pg-bottom a span{
 	font-size: 20px;
     color: #071c33;
@@ -543,7 +544,7 @@ li.prev_slide .image {
 .prev:hover::after, .next:hover::after {
   width: 3.5rem;
 }
-.desc-content .desc-item{border-right: 2px dotted #ddd;background: #f5fafb; padding: 30px;}
+.desc-content .desc-item{border-right: 2px dotted #ddd;background: #f5fafb;padding: 50px 30px;}
 .desc-content .desc-item:last-child{border-right:0 !important;}
 
 /*-------------------gallery-----------------------*/
@@ -864,12 +865,15 @@ li.prev_slide .image {
 .grid figure p {
   letter-spacing: 1px;
   font-size: 68.5%;
+  margin-bottom: 30px;
 }
 .effect-roxy {
-  background: #071c33;
-  margin: 0 10px;
-  margin: 0 15px 0 0;
+  margin: 0;
+  min-height: 500px;
+  text-align: center;
 }
+.grid figure:nth-child(even){background: #06274a;}
+.grid figure:nth-child(odd){background: #071c33;}
 .effect-roxy img {
   max-width: none;
   width: calc(100% + 60px);
@@ -900,12 +904,10 @@ li.prev_slide .image {
   transform: translate3d(0,0,0);
 }
 .other-project h3{margin-top: 50px;}
+.other-project{margin-bottom:-50px;}
 .other-item-bottom{position: relative;}
-.other-item-bottom h4{font-size: 20px;margin-top: 30px;}
-.other-item-bottom::after{
-  content:"319";
-  position: absolute;
-}
+.other-item-bottom h4{font-size: 20px;margin-top: 40px;}
+
 /*panorama image*/
 
 .panorama {
@@ -951,11 +953,14 @@ li.prev_slide .image {
   .card .card-right {padding-left: 15px; }
   .card-date {left: 30px;}
 }
+@media screen and ( max-width: 768px ){
+  .navbar-right .dropdown-menu {left: -50px;}
+}
+
 @media screen and ( max-width: 650px ) {
   .card{margin-bottom: 13%;}
   .card li {padding-right: 10px;}
   .card .card-right h2 {font-size: 18px;}
-}
-@media screen and ( max-width: 650px ){
   .card{width:100% !important;}
+
 }
