@@ -1019,9 +1019,7 @@ main{margin-top: 80px;}
     padding: 0;
 }
 #slider .left span::before, #slider .right span::before{font-size: 50px;opacity: .8;}
-.carousel-inner>.item>img, .carousel-inner>.item>a>img {
-    width: 100%;
-}
+.carousel-inner>.item>img, .carousel-inner>.item>a>img {width: 100%;}
 /* CONTACT BANNER */
 
 .contact-content, .attachment-content, .image-content{
@@ -1030,7 +1028,8 @@ main{margin-top: 80px;}
 .heading-banner{
   height: 120px;position: relative;
   background: url(../images/contact-banner.jpg) no-repeat center bottom;
-  background-size: 100%;}
+  background-size: cover;
+}
 .heading-banner h3{
   position: absolute;
   color: #fff;
@@ -1180,6 +1179,10 @@ main{margin-top: 80px;}
 }
 .about-partner{margin-top: 30px;}
 .about-partner-item{margin-bottom: 50px;text-align: center;}
+.about-image{
+  background: #efefef;
+  padding-top: 10px;
+}
 @media screen and (max-width: 1200px){
   .about-group {height: 574px;}
 }
@@ -1197,8 +1200,9 @@ main{margin-top: 80px;}
   .about-group::after{display: none;}
   .about-group{height: auto; padding-bottom: 40px;}
   .about-name::before {right: 0;}
-  .footer-body h2 {font-size: 30px;}
+  
   .banner-header h2 {font-size: 35px;}
+ .image-content, .contact-content, .attachment-content { margin-top: 77px !important;}
 }
 @media screen and (max-width: 650px ) {
   .card{margin-bottom: 13%;}
@@ -1208,8 +1212,9 @@ main{margin-top: 80px;}
 }
 @media screen and (max-width: 480px){
   .video-item iframe {height: auto !important;}
-.large-video iframe {
+  .large-video iframe {
       width: 100%;
       height: 210px;
   }
+  .info {padding: 30% 10% 0 10%;}
 }
