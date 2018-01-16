@@ -1,4 +1,5 @@
-.sub-content a:hover, .sub-content a:focus{text-decoration: none;}
+a{color:#333;}
+a:hover, .sub-content a:focus{text-decoration: none;}
 .sub-content{padding-bottom: 50px;}
 .btn-stroke{
     border: 1px solid #ddd;
@@ -79,7 +80,7 @@
   margin-bottom: 10px;
   border-radius: 50%;
   display: inline-block;
-  line-height: 65px;
+  line-height: 60px;
   background: #ffffff2b;
 }
 .sub-content .item-title{position: relative;    padding: 40px;}
@@ -1006,14 +1007,48 @@ main{margin-top: 80px;}
     width: 100%;
 }
 /* CONTACT BANNER */
+
 .contact-content{
     margin-top: 80px;
-    background: url(../images/contact-banner.jpg) no-repeat center center;
-    background-size: 100%;
-    height: 150px;
 }
-.contact-banner{height: 80px;}
-
+.contact-banner{height: 120px;opacity: .9;position: relative;background: url(../images/contact-banner.jpg) no-repeat center center;
+    background-size: 100%;}
+.contact-banner h3{
+ position: absolute;
+    color: #fff;
+    text-align: center;
+    right: 0;
+    left: 0;
+    top: 40%;
+}
+.map-responsive{
+    overflow: hidden;
+    position: relative;
+    height: 500px;
+}
+.contact-address{margin: 70px 0 80px 0;;position: relative;}
+.contact-address img, .contact-address h4{margin-bottom: 20px;color:#052b54; margin-top: 5px;}
+.contact-logo {text-align: center;}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    width:100%;
+    position:absolute;
+    height: 500px;
+}
+/*ATTACHMENT*/
+.attachment-content .banner-bottom{
+    position: absolute;
+    bottom: 0;
+    background: #d0d0d0;
+    width: 100%;
+    padding: 10px 0;
+    color: #333;
+}
+.attachment-content .banner-bottom ul{display: flex; justify-content: center;padding-top: 10px;}
+.list-att ul li{margin:0 10px;border-bottom: 1px dotted #ddd;}
+.attachment-content .list-att{padding:60px 0;}
+.list-att ul li img{width:40px;margin-bottom: 20px;}
 @media screen and (max-width:1200px){
   .btn-detail {
     right: 20px;
@@ -1040,7 +1075,7 @@ main{margin-top: 80px;}
 @media screen and (max-width: 992px){
   .video-timeline-item img {height: auto;}
   .video-text {padding-left: 0;margin-top: 20px;}
-  .image-content {margin-top: 160px;}
+  .image-content,.contact-content {margin-top: 160px;}
 }
 @media screen and (max-width: 768px){
   .navbar-right .dropdown-menu {left: -50px;}
