@@ -49,6 +49,9 @@ input::placeholder {color: #052b54 !important;}
     max-width: 360px;
     min-width: 300px;
 }
+.txt-blue{
+    color: #023f82;
+}
 /* =========================== */
 #navbar a:hover{
     color:#a71930;
@@ -874,7 +877,7 @@ li.home{padding-top:10px !important;}
  .footer-top{
     background: #eceff3;
     text-align: center;
-    padding: 40px 15px 40px 15px;
+    padding: 50px 15px 40px 15px;
     position: relative;
     background: repeating-linear-gradient(-45deg, #EFC1CB, #EFC1CB 30px, #F2F2F2 30px, #F2F2F2 40px, #C2E8F5 40px, #C2E8F5 70px, #F2F2F2 70px, #F2F2F2 80px);
 }
@@ -889,9 +892,10 @@ li.home{padding-top:10px !important;}
     top: 0px;
  }
  .footer-top h3{
-     color: #052b54;
-     font-weight: bold;
-     font-size: 30px;
+    color: #052b54;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 10px;
 }
 .footer-top  button{margin-top: 40px;}
 .footer-top form{margin-top: 40px;margin-top: 40px;z-index: 99;position: relative;}
