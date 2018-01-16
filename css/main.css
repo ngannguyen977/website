@@ -21,7 +21,7 @@ a:hover, .sub-content a:focus{text-decoration: none;}
   align-items: flex-start;
   align-content: flex-start;
   height: 30vw;
-  min-height: 500px;
+  min-height: 350px;
   max-height: 600px;
   min-width: 300px;
   color: #fff;
@@ -35,19 +35,21 @@ a:hover, .sub-content a:focus{text-decoration: none;}
   bottom:0;
   left:0;
   z-index:-1;
- background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(27,32,48,1) 100%);
+   background: -webkit-linear-gradient(rgba(0,0,0,0) 0%, rgb(7, 28, 51) 100%);
+   background: -o-linear-gradient(rgba(0,0,0,0) 0%, rgb(7, 28, 51) 100%);
+   background: linear-gradient(rgba(0,0,0,0) 0%, rgb(7, 28, 51) 100%);
 }
 .banner-header:before{
   content:"";
   width:100%;
   height:100%;
   position:absolute;
-  top:0;
+  bottom:0;
   left:0;
     -webkit-backface-visibility: hidden;
     -webkit-transform: translateZ(0) scale(1.0, 1.0);
     transform: translateZ(0);
-  background:#1B2030 url("../images/banner-header.jpg") top center no-repeat;
+  background:#1B2030 url("../images/banner-header.jpg") center bottom no-repeat;
   background-size:cover;
   background-attachment:fixed;
   animation: grow 60s  linear 10ms infinite;
@@ -58,7 +60,7 @@ a:hover, .sub-content a:focus{text-decoration: none;}
 .banner-header h2{
  font-size: 45px;
  position: relative;
- margin-bottom: 50px;
+ margin-bottom: 20px;
 }
 .sides, .info{
   flex: 0 0 auto;
@@ -70,6 +72,7 @@ a:hover, .sub-content a:focus{text-decoration: none;}
   text-align:center;
   text-shadow:0 2px 3px rgba(0,0,0,0.2)
 }
+
 @keyframes grow{
   0% { transform:scale(1)}
   50% { transform:scale(1.2)}
@@ -1023,7 +1026,6 @@ main{margin-top: 80px;}
 
 .contact-content, .attachment-content, .image-content{
   margin-top: 80px;
-  margin-bottom: 80px;
 }
 .heading-banner{
   height: 120px;position: relative;
@@ -1090,9 +1092,10 @@ main{margin-top: 80px;}
   display: inline-block;
   padding-bottom: 10px;
   display: flex;
-  background: #f4f4f5;
+  background: #fff;
   padding: 15px 10px 10px;
   border-radius: 4px;
+  box-shadow: 1px 1px 3px 1px #e3e4e7;
 }
 .attachment-item-right p{
   margin-bottom: 0;
@@ -1114,7 +1117,7 @@ main{margin-top: 80px;}
 .attachment-content .nav-tabs > li > a::after { content: ""; background: #4285F4; height: 2px; padding-top: 5px; position: absolute; width: 100%; left: 0px; bottom: -1px; transition: all 250ms ease 0s; transform: scale(0); }
 .attachment-content .nav-tabs > li.active > a::after, .nav-tabs > li:hover > a::after { transform: scale(1); }
 .attachment-content .tab-nav > li > a::after { background: #21527d none repeat scroll 0% 0%; color: #fff; }
-.attachment-content .tab-pane { padding: 15px 0; }
+.attachment-content .tab-pane { padding: 0 0 60px 0;background: url("../images/pattern2.png") repeat; }
 
 @media screen and (max-width:1200px){
   .btn-detail {
@@ -1137,7 +1140,49 @@ main{margin-top: 80px;}
   .card .card-right {padding-left: 15px; }
   .card-date {left: 30px;}
 }
-
+/* =====================ABOUT================== */
+.about-group{
+    height: 550px;
+    background: #efefef;
+    max-height: 100%;
+  }
+.about-name{position:relative;}
+.about-name i{
+    color: #304863;
+    font-size: 15px;
+    font-weight: 500;
+}
+.about-name h2{font-size: 35px;padding-top: 30px;color: #304863;}
+.about-name h4{font-size: 23px;color:#556577;}
+.about-name::before{
+    content: "319";
+    color: #e3e3e3;
+    font-size: 190px;
+    font-weight: 800;
+    position: absolute;
+    top: -110px;
+    left: 0;
+    z-index: -1;
+}
+.about-group::after{
+  content: url(../images/about-img.png);
+    position: absolute;
+    bottom: -5px;
+    right: 0;
+    z-index: -1;
+}
+.about-name img{
+  position: absolute;
+    bottom: -46px;
+    z-index: -1;
+    width: 415px;
+    right: 0;
+}
+.about-partner{margin-top: 30px;}
+.about-partner-item{margin-bottom: 50px;text-align: center;}
+@media screen and (max-width: 1200px){
+  .about-group {height: 574px;}
+}
 
 @media screen and (max-width: 992px){
   .video-timeline-item img {height: auto;}
@@ -1148,6 +1193,12 @@ main{margin-top: 80px;}
   .navbar-right .dropdown-menu {left: -50px;}
   .timeline > .video-timeline{left:0;}
   .video-timeline-item{margin-left: 0;}
+  .about-name{text-align: center;}
+  .about-group::after{display: none;}
+  .about-group{height: auto; padding-bottom: 40px;}
+  .about-name::before {right: 0;}
+  .footer-body h2 {font-size: 30px;}
+  .banner-header h2 {font-size: 35px;}
 }
 @media screen and (max-width: 650px ) {
   .card{margin-bottom: 13%;}

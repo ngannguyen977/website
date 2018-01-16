@@ -52,6 +52,7 @@ input::placeholder {color: #052b54 !important;}
 .txt-blue{
     color: #023f82;
 }
+#page_wrapper{overflow: hidden;}
 /* =========================== */
 #navbar a:hover{
     color:#a71930;
@@ -833,6 +834,7 @@ li.home{padding-top:10px !important;}
 }
 .item-title{
     margin-top: 30px;
+    margin-bottom: 50px;
     font-weight: bold;
     text-align: center;
     color: #062c55;
@@ -902,7 +904,7 @@ li.home{padding-top:10px !important;}
 .form-inline .form-group{margin-right:5px;}
 .txt-bottom-title{
      font-size: 15px;
-     color: #304458;
+     color: #304863;
      font-weight: 500;
 }
  .footer-top .form-control{
@@ -916,6 +918,7 @@ li.home{padding-top:10px !important;}
     height: 40px;
     width: 100%;
 }
+.footer-body h2{font-size: 35px;}
 .footer-body h3{margin-top: 10px;font-size: 18px;}
 .footer-body i::before{
     color: #e31851;
@@ -1081,7 +1084,8 @@ li.home{padding-top:10px !important;}
     .main-logo {
          background: #071c33 !important;
          width: 100% !important;
-     } 
+     }
+     .footer-body h2{font-size: 30px;}
 }
 @media screen and (max-width:992px) {
     .section .section-bg{position: relative;}
@@ -1098,6 +1102,7 @@ li.home{padding-top:10px !important;}
         padding-left: 5px !important;
         padding-right: 5px !important;
     }
+
     .section .scroll-inline{
          padding: 25px 15px;
     }
@@ -1118,11 +1123,13 @@ li.home{padding-top:10px !important;}
 }
  @media screen and (min-width: 768px){
     .lang-display_SP{display: none;}
+    
 }
 @media screen and (max-width: 880px){
     .card{width:48% !important;}
 }
  @media screen and (max-width:767px){
+    .about-name::before {font-size: 150px !important;}
     .map-group{
         background: #ecf2f7;
         margin-top: 30px;
@@ -1193,6 +1200,7 @@ li.home{padding-top:10px !important;}
     }
     .home-content .banner-item img{
          margin:0px auto;
+
     }
 }
  @media screen and (max-width:992px){
