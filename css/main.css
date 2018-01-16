@@ -1022,17 +1022,20 @@ main{margin-top: 80px;}
 /* CONTACT BANNER */
 
 .contact-content, .attachment-content, .image-content{
-    margin-top: 80px;
+  margin-top: 80px;
+  margin-bottom: 80px;
 }
-.heading-banner{height: 120px;position: relative;background: url(../images/contact-banner.jpg) no-repeat center center;
-    background-size: 100%;}
+.heading-banner{
+  height: 120px;position: relative;
+  background: url(../images/contact-banner.jpg) no-repeat center bottom;
+  background-size: 100%;}
 .heading-banner h3{
   position: absolute;
   color: #fff;
   text-align: center;
   right: 0;
   left: 0;
-  top: 40%;
+  top: 45%;
   font-size: 30px;
 }
 .map-responsive{
@@ -1045,50 +1048,58 @@ main{margin-top: 80px;}
 .contact-address img, .contact-address h4{margin-bottom: 20px;color:#052b54; margin-top: 5px;}
 .contact-logo {text-align: center;}
 .map-responsive iframe{
-    left:0;
-    top:0;
-    width:100%;
-    position:absolute;
-    height: 500px;
+  left:0;
+  top:0;
+  width:100%;
+  position:absolute;
+  height: 500px;
 }
 /*ATTACHMENT*/
 
-.attachment-content .banner-bottom{
-    position: absolute;
-    background: #e2e4e6;
-    width: 100%;
-    padding: 13px 0;
-    color: #333;
+.attachment-content .tab-top{
+  background: #e2e4e6;
+  width: 100%;
+  padding: 13px 0;
+  color: #333;
 }
-.banner-bottom li{
+.tab-top li{
   border-right: 1px solid #9fa6ad;
-      padding-right: 10px;
-    margin-left: 10px;
+  padding-right: 10px;
+  margin-left: 10px;
 }
-.banner-bottom li:last-child{border-right:0;}
-.banner-bottom a{
-    color: #071c33;
-    font-size: 13px;
-    font-weight: 500;
+.tab-top li:last-child{border-right:0;}
+.tab-top a{
+  color: #071c33;
+  font-size: 13px;
+  font-weight: 500;
 }
 .heading-content{
   text-align: center;
-    margin: 50px 0;
+  margin: 50px 0;
 }
 .heading-content h4{
-    font-size: 22px;
-    color: #052b54;
-    margin-bottom: 10px;
+  font-size: 22px;
+  color: #052b54;
+  margin-bottom: 10px;
 }
-.banner-bottom a:hover, .banner-bottom a:focus{color:#a71930;}
-.attachment-content .banner-bottom ul{display: flex; justify-content: center;margin-bottom: 0;}
+.tab-top a:hover, .tab-top a:focus{color:#a71930;}
+.attachment-content .tab-top ul{display: flex; justify-content: center;margin-bottom: 0;}
 .attachment-content .list-att ul li{
-      margin: 0px 10px;
-    border-bottom: 1px dotted #ddd;
-    margin-bottom: 20px;
-    display: inline-block;
-    padding-bottom: 10px;
+  margin: 0px 10px;
+  margin-bottom: 10px;
+  display: inline-block;
+  padding-bottom: 10px;
+  display: flex;
+  background: #f4f4f5;
+  padding: 15px 10px 10px;
+  border-radius: 4px;
 }
+.attachment-item-right p{
+  margin-bottom: 0;
+  font-weight: 500;
+}
+.attachment-item-right a{color:#428bca;font-size: 13px;}
+.attachment-item-right i::before{font-size:20px;}
 .attachment-content .attachment-content .list-att{padding:60px 0;}
 .attachment-content .list-att ul li img{
       width: 40px;
@@ -1100,11 +1111,10 @@ main{margin-top: 80px;}
 .attachment-content .nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover { border-width: 0; }
 .attachment-content .nav-tabs > li > a { border: none; color: #666; }
 .attachment-content .nav-tabs > li.active > a, .nav-tabs > li > a:hover { border: none; color: #4285F4 !important; background: transparent; }
-.attachment-content .nav-tabs > li > a::after { content: ""; background: #4285F4; height: 2px; position: absolute; width: 100%; left: 0px; bottom: -1px; transition: all 250ms ease 0s; transform: scale(0); }
+.attachment-content .nav-tabs > li > a::after { content: ""; background: #4285F4; height: 2px; padding-top: 5px; position: absolute; width: 100%; left: 0px; bottom: -1px; transition: all 250ms ease 0s; transform: scale(0); }
 .attachment-content .nav-tabs > li.active > a::after, .nav-tabs > li:hover > a::after { transform: scale(1); }
 .attachment-content .tab-nav > li > a::after { background: #21527d none repeat scroll 0% 0%; color: #fff; }
 .attachment-content .tab-pane { padding: 15px 0; }
-.attachment-content .tab-content{padding:20px}
 
 @media screen and (max-width:1200px){
   .btn-detail {
@@ -1132,7 +1142,7 @@ main{margin-top: 80px;}
 @media screen and (max-width: 992px){
   .video-timeline-item img {height: auto;}
   .video-text {padding-left: 0;margin-top: 20px;}
-  .image-content,.contact-content, .attachment-content {margin-top: 160px;}
+  .image-content,.contact-content, .attachment-content {margin-top: 137px;}
 }
 @media screen and (max-width: 768px){
   .navbar-right .dropdown-menu {left: -50px;}
