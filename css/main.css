@@ -193,6 +193,7 @@ span.s1 {
   bottom: 10px;
 }
 .btn-detail i::before{font-size: 45px;}
+
 /* ==============pagination ===================*/
 
 .pagination.pg-bottom {
@@ -200,6 +201,7 @@ span.s1 {
   width: 100%;
   text-align: center;
 }
+.pagination.pg-bottom a.is-active span{color:#a9162f;}
 .pagination.pg-bottom a {
   display: inline-block;
   width: 50px;
@@ -1036,9 +1038,11 @@ main {margin-top: 80px;}
     border-bottom-right-radius: 4px;
 }
 .wrap{
-  width: 40%;
+  width: 92%;
   margin: 0 auto;
   padding-top: 50px;
+  max-width: 550px;
+  min-width: 270px;
 }
 .attachment-content .tab-top{
   background: #e2e4e6;
@@ -1174,7 +1178,7 @@ main {margin-top: 80px;}
   .about-group{height: auto; padding-bottom: 40px;}
   .about-name::before {right: 0;}
   .banner-header h2 {font-size: 35px;}
-  .image-content, .contact-content, .attachment-content { margin-top: 77px !important;}
+  .image-content, .contact-content, .attachment-content { margin-top: 60px !important;}
 }
 @media screen and (max-width: 650px ) {
   .card{margin-bottom: 13%;}
