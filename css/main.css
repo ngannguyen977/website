@@ -109,16 +109,14 @@ span.s1 {
   box-shadow: 10px 10px 93px 0px rgba(0, 0, 0, 0.14);
 }
 .card .thumbnail {
-    float: left;
-    position: relative;
-    top: -30px;
-    border: 1px solid;
-    border-radius: 0;
- 	-webkit-box-shadow: 10px 10px 93px 0px rgba(0, 0, 0, 0.14);
-  	-moz-box-shadow: 10px 10px 93px 0px rgba(0, 0, 0, 0.14);
-  	box-shadow: 10px 10px 93px 0px rgba(0, 0, 0, 0.14);
-  	overflow: hidden;
-  	margin-bottom: 0;
+  padding: 5px;
+  float: left;
+  position: relative;
+  top: -30px;
+  border: 1px solid;
+  border-radius: 0;
+	overflow: hidden;
+	margin-bottom: 0;
 }
 .card .card-bottom
 .card img.card-left {
@@ -214,6 +212,7 @@ span.s1 {
   line-height: 45px;
   background: #fff;
   box-shadow: 0 1px 12px rgba(0, 0, 0, 0.04);
+  border: 1px solid;
 }
 .pagination.pg-bottom ul {
   margin: 0;
