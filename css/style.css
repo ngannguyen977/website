@@ -425,7 +425,7 @@ input::placeholder {color: #052b54 !important;}
     color:#b60a28;
 }
 .navbar-fixed-top{border:0;}
-.header-top .navbar{ box-shadow: 0 6px 15px rgba(36,37,38,0.08);border-bottom: 0;background: #fff;}
+.header-top .navbar{box-shadow: 0 1px 12px rgba(0, 0, 0, 0.04); border-bottom: 0;background: #fff;}
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus{
     background: transparent;
 }
