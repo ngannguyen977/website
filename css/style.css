@@ -58,7 +58,7 @@ input::placeholder {color: #052b54 !important;}
     text-decoration:none;
     outline:none;
 }
-.caret{margin-left: 8px;}
+.caret{margin-left: 5px;}
 .select-language a:hover{color:#fff !important;}
 .nav .open > a, .nav .open > a:hover, .nav .open > a:focus{background: transparent;}
 .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
