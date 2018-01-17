@@ -40,21 +40,21 @@ a:hover, .sub-content a:focus{text-decoration: none;}
    background: linear-gradient(rgba(0,0,0,0) 0%, rgb(7, 28, 51) 100%);
 }
 .banner-header:before{
-  content:"";
-  width:100%;
-  height:100%;
-  position:absolute;
-  bottom:0;
-  left:0;
-    -webkit-backface-visibility: hidden;
-    -webkit-transform: translateZ(0) scale(1.0, 1.0);
-    transform: translateZ(0);
-  background:#1B2030 url("../images/banner-header.jpg") center bottom no-repeat;
-  background-size:cover;
-  background-attachment:fixed;
-  animation: grow 60s  linear 10ms infinite;
-  transition:all 0.2s ease-in-out;
-  z-index:-2
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  -webkit-backface-visibility: hidden;
+  -webkit-transform: translateZ(0) scale(1.0, 1.0);
+  transform: translateZ(0);
+  background: #1B2030 url(../images/banner-header.jpg) center top no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
+  animation: grow 60s linear 10ms infinite;
+  transition: all 0.2s ease-in-out;
+  z-index: -2;
 }
 .banner-header a{font-size: 15px;color:#fff;}
 .banner-header h2{
@@ -1195,6 +1195,6 @@ main {margin-top: 80px;}
   .large-video iframe {width: 100%;height: 210px;}
   .info {padding: 30% 10% 0 10%;}
   #slider .left span::before, #slider .right span::before {font-size: 35px;}
-  .attachment-content .list-att ul li {margin: 0;}
+  .attachment-content .list-att ul li {margin-left: 0;margin-right: 0;}
   .pagination.pg-bottom a {width: 35px;}
 }
