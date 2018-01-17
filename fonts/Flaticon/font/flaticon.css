@@ -1,6 +1,6 @@
 	/*
   	Flaticon icon font: Flaticon
-  	Creation date: 17/01/2018 04:16
+  	Creation date: 17/01/2018 08:49
   	*/
 
 @font-face {
@@ -24,22 +24,22 @@
 [class^="flaticon-"]:before, [class*=" flaticon-"]:before,
 [class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
   font-family: Flaticon;
-        font-size: 30px;
+        font-size: 20px;
 font-style: normal;
-font-weight: 300;
+margin-left: 20px;
 }
 
-.flaticon-magnifying-glass:before { content: "\f100"; }
-.flaticon-arrows-3:before { content: "\f101"; }
-.flaticon-erasmus-bridge:before { content: "\f102"; }
-.flaticon-people-1:before { content: "\f103"; }
-.flaticon-arrows-2:before { content: "\f104"; }
-.flaticon-sun:before { content: "\f105"; }
-.flaticon-photo-camera-2:before { content: "\f106"; }
-.flaticon-office:before { content: "\f107"; }
-.flaticon-visibility:before { content: "\f108"; }
-.flaticon-eye:before { content: "\f109"; }
-.flaticon-speech-bubble-outline:before { content: "\f10a"; }
+.flaticon-bridge:before { content: "\f100"; }
+.flaticon-interface:before { content: "\f101"; }
+.flaticon-magnifying-glass:before { content: "\f102"; }
+.flaticon-arrows-3:before { content: "\f103"; }
+.flaticon-people-1:before { content: "\f104"; }
+.flaticon-arrows-2:before { content: "\f105"; }
+.flaticon-sun:before { content: "\f106"; }
+.flaticon-photo-camera-2:before { content: "\f107"; }
+.flaticon-office:before { content: "\f108"; }
+.flaticon-visibility:before { content: "\f109"; }
+.flaticon-eye:before { content: "\f10a"; }
 .flaticon-next-page:before { content: "\f10b"; }
 .flaticon-video-camera:before { content: "\f10c"; }
 .flaticon-photo-camera-1:before { content: "\f10d"; }
