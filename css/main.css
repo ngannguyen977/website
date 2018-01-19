@@ -87,7 +87,7 @@ a:hover, .sub-content a:focus{text-decoration: none;}
   line-height: 60px;
   background: #ffffff2b;
 }
-.sub-content .item-title{position: relative;    padding: 40px;}
+.sub-content .item-title{position: relative;padding: 20px 0 0 0;}
 
 /*====================== CARD =======================*/
 span.s1 {
@@ -129,7 +129,7 @@ span.s1 {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
-.card .card-right {padding-left: 15px;padding-top: 15px;}
+.card .card-right {padding-left: 15px;padding-top: 25px;}
 .card .card-right h2{
 	font-size: 20px;
 	color: #062c55;
@@ -227,7 +227,32 @@ span.s1 {
 }
 
 /* ======================= NEWS ====================*/
-
+.list-post .button-group  span{
+  width: 162px;
+    padding: 8px 0;
+    border-radius: 30px;
+    position: relative;
+    background: #a9162e;
+    display: inline-block;
+    color: #fff;
+    padding-left: 28px;
+    margin: 10px;
+}
+.list-post .button-group {text-align: center;margin-bottom: 50px;}
+.list-post .button-group a i{
+  border: 2px solid #fff;
+    width: 50px;
+    height: 50px;
+    line-height: 45px;
+    background: #071c33;
+    border-radius: 50%;
+    position: absolute;
+    color: #fff;
+    top: -8px;
+    left: -14px;
+}
+.list-post .button-group a i::before{font-size: 24px;}
+.list-post .button-group a{color: #fff;font-size: 13px;}
 #timeline {display: flex;background-color: #031625;}
 #timeline:hover .tl-item {width: 23.3333%;}
 .tl-item {
@@ -335,7 +360,7 @@ span.s1 {
 	padding: 5px 15px;
  	width: 170px;
   float: left;
-  margin: 30px 5px 0 5px;
+  margin: 40px 5px 0 5px;
   text-align: center;
   background: #fdfdfd;
   box-shadow: 10px 10px 93px 0px rgba(0, 0, 0, 0.1);
@@ -528,6 +553,16 @@ li.prev_slide .image {clip: rect(0, 0, 50rem, 0);}
 .desc-content .desc-item:last-child{border-right:0 !important;}
 
 /*-------------------gallery-----------------------*/
+.image-content .type-img {display: flex;}
+.image-content .type-img li{
+  background: #071c33;
+  color: #b0c4ce;
+  width: 33.33%;
+  text-align: center;
+  border-right: 1px solid #4a5f7b;
+  line-height: 38px;
+  height: 38px;
+}
 .gallery {position: relative;}
 .gallery input[name$="control"] {display: none;}
 .gallery .carousel {
@@ -969,6 +1004,7 @@ main {margin-top: 80px;}
 .hide-bullets {
   list-style:none;
   margin-top:20px;
+  padding: 15px;
 }
 #slider{position: relative;}
 #slider .left span, #slider .right span{top:42%;position: absolute;opacity: .5;}
